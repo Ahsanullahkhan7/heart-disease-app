@@ -25,6 +25,7 @@ st.sidebar.markdown("""
 # def main():
 st.subheader('Enter your detail')
 age = st.number_input("Age", min_value=20, max_value=100, value=50)
+sex = st.radio('sex:', option=['Male', 'Female'] )
 cp = st.selectbox("Chest Pain Type (cp)", [0, 1, 2, 3], help="0: typical angina, 1: atypical, 2: non-anginal, 3: asymptomatic")
 restecg = st.selectbox("Resting ECG Result (restecg)", [0, 1, 2], help="0: normal, 1: ST-T wave abnormality, 2: left ventricular hypertrophy")
 thalach = st.slider("Max Heart Rate Achieved (thalach)", min_value=70, max_value=210, value=150)
