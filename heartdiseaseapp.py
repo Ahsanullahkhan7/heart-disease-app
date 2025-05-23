@@ -43,7 +43,7 @@ if st.button("Predict"):
     else:
         st.success("Great! You likely do not have heart disease.")
     # if st.button('Predict'):
-    #     result = predictionFunction(age,	cp,	restecg,	thalach,	exang)
+    #     result = predictionFunction(age,	cp,	restecg,	thalach,	exang,sex)
     #     st.markdown(f'{result}')
     #     st.balloons()
 
